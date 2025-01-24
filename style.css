@@ -1,0 +1,65 @@
+.button-group {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    justify-content: space-evenly; /* Distribute buttons evenly */
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Button Styles */
+  .button-group a {
+    flex: 1; /* Buttons take equal space */
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f3c138;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button-group button {
+    flex: 1; /* Buttons take equal space */
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f3c138;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .button-group button:hover {
+    background-color: #a89d05;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 600px) {
+    .button-group {
+      flex-direction: column; /* Stack buttons vertically */
+      gap: 5px;
+    }
+  }
+  .text{
+    width: 150vh;
+    height: 40vh;
+  }
+  .head{
+    height: 7.5vh;
+    background-color: bisque;
+  }
+  p{
+    font-size:x-large;
+  }
+  .container {
+    display: flex;
+    align-items: center; /* Vertically aligns the items */
+}
